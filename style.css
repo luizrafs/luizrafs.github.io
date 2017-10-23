@@ -1,6 +1,7 @@
 body{
 	background-color:khaki;
-
+}
+.cabecalho{
 
 }
 .h1{
@@ -9,29 +10,31 @@ body{
 	text-align: center;
 	color:orangered;
 }
-#imagem{
-	margin:0px;
+.sessao1{
+	display: flex;
+	justify-content: center;
+}
+.imagem{
 	width: 400px;
 	height: 400px;
 	border-radius: 10%;
 }
-section{
+.sessao2{
 	display: flex;
-	justify-content: flex-start;
-	align-items: center;
-
+	justify-content: center;
 }
-p{
-	width: 30%;
+.p1{
+	width: 70%;
 	font-size: 30px;
 	margin: 100px;
 	color:orangered;
+	text-align: center;
 }
-.imgf{
+.icon{
 	height: 100px;
 	font-weight: 100px;
 	margin:0 60px;
 }
-footer{
+.rodape{
 	text-align: center;
 }
